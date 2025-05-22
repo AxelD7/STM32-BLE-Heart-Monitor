@@ -1,0 +1,6 @@
+../Core/Src/MAX30102/algorithm.c:96:6:maxim_heart_rate_and_oxygen_saturation	344	static
+../Core/Src/MAX30102/algorithm.c:304:6:maxim_find_peaks	32	static
+../Core/Src/MAX30102/algorithm.c:318:6:maxim_peaks_above_min_height	32	static
+../Core/Src/MAX30102/algorithm.c:349:6:maxim_remove_close_peaks	40	static
+../Core/Src/MAX30102/algorithm.c:378:6:maxim_sort_ascend	32	static
+../Core/Src/MAX30102/algorithm.c:396:6:maxim_sort_indices_descend	40	static
