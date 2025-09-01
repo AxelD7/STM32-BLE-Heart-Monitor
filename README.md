@@ -1,6 +1,6 @@
 # STM32 Bluetooth Heart Monitor * NOT FOR MEDICAL USE*
 
-This was my **Honors Directed Study project at Henry Ford College**.  
+This was my **Honors Directed Study project at Henry Ford College**, this was a semester long project done over the span of about 3 months being mentored by a professor at HFC.  
 The goal was to build a working heart monitor from scratch using an STM32F466RE microcontroller, a few biomedical sensors, and Bluetooth to send data to a mobile app. I also designed a 3D printed case to hold everything together.
 
 
@@ -52,18 +52,18 @@ Code is in `/flutterapp`.
 - Connects over BLE and plots live data  
 - Built as a quick proof of concept with no prior Flutter experience  
 - Not actively maintained (requires macOS build environment)  
-- Demo available in video above  
+- Demo available in video above
 
-## Hardware Setup
+## How to run it
+1. Clone the repo  
+2. Flash the firmware from `/stm32code` onto the STM32F466RE board  
+3. Wire up sensors and the HM-10 module (see wiring diagram in `/images`)  
+4. Pair over BLE and view the data (with the Flutter app)
 
+## Images
 
 ### System Flow Diagram
 ![System Flow](images/full-flow-diagram.png)
-
----
-
-## Enclosure
-
 
 ### Printed Device
 ![Complete Device](images/pulseox-complete-image.jpg)
@@ -78,11 +78,6 @@ Code is in `/flutterapp`.
 ![Sensor in Enclosure](images/finger-pulseox-in-enclosure.jpg)
 ---
 
-## How to run it
-1. Clone the repo  
-2. Flash the firmware from `/stm32code` onto the STM32F466RE board  
-3. Wire up sensors and the HM-10 module (see wiring diagram in `/images`)  
-4. Pair over BLE and view the data (with the Flutter app)
 
 ## Notes
 - This project was part of an **Honors Directed Study at Henry Ford College**, completed over a 3-month period.  
